@@ -1,0 +1,14 @@
+{
+  "name": "FastTask Test",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Instancer": {
+        "$path": "src"
+      },
+      "Tests": {
+        "$path": "tests"
+      }
+    }
+  }
+}

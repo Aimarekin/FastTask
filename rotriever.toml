@@ -1,0 +1,8 @@
+[package]
+name = "FastTask"
+authors = [
+  "Aimarekin"
+]
+license = "MIT"
+content_root = "src"
+version = "1.0.0"
