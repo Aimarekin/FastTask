@@ -3,7 +3,7 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "Instancer": {
+      "FastTask": {
         "$path": "src"
       },
       "Tests": {
