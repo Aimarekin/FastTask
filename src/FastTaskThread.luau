@@ -53,10 +53,8 @@ end
 
 	You can create instances of this class through [FastTask]'s controlled functions, [FastTask.create] and [FastTask.wrap].
 ]=]
-local class = {}
-local classMt = {}
-FastTaskThread.class = class
-FastTaskThread.classMt = classMt
+local class, classMt = {}, {}
+FastTaskThread.class, FastTaskThread.classMt = class, classMt
 
 export type FastTaskThread = {
 	cancel: (self: FastTaskThread) -> (),
